@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    console.log('Logging ' + Date.now());
+    console.log('Logging: ' + Date.now());
     return res.send('Hello World!')
 });
 
